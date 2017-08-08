@@ -79,19 +79,6 @@ namespace TreeTraversalEx
             } while (!added);
         }
 
-        // add a value to the tree using a recursive search
-        //=================================================
-        public void AddRc(char? v)
-        {
-            //recursive add
-            AddR(ref Root, v);
-        }
-
-        private void AddR(ref Node n, char? v)
-        {
-            //private recursive search for place to add the new node
-        }
-
 
         // Depth-First Binary Tree Traversal methods
         // Pre-Order, In-Order, Post-Order traversals of a char Btree
